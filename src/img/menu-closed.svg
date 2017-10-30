@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 24.946875 17.5"
+   height="17.5"
+   width="24.946875"
+   xml:space="preserve"
+   version="1.1"
+   id="svg2"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6" /><g
+     transform="matrix(1.25,0,0,-1.25,0,17.5)"
+     id="g10"><path
+       id="path12"
+       style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 0,12 19.958,0 0,2.001 L 0,14.001 0,12 Z" /><path
+       id="path14"
+       style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 0,6 19.958,0 0,2 L 0,8 0,6 Z" /><path
+       id="path16"
+       style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 0,0 19.958,0 0,2 L 0,2 0,0 Z" /></g></svg>

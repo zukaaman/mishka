@@ -1,0 +1,149 @@
+.about__list {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Verdana", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  list-style: none;
+}
+
+.about__item--eco::before {
+  content: "";
+
+  display: block;
+  width: 43px;
+  height: 50px;
+
+  background-image: url("../img/icon-1.svg");
+  background-repeat: none;
+  background-position: 0 0;
+}
+
+.about__item--scandi::before {
+  content: "";
+
+  display: block;
+  width: 62px;
+  height: 36px;
+
+  background-image: url("../img/icon-2.svg");
+  background-repeat: none;
+  background-position: 0 0;
+}
+
+.about__item--like::before {
+  content: "";
+
+  display: block;
+  width: 44px;
+  height: 37px;
+
+  background-image: url("../img/icon-3.svg");
+  background-repeat: none;
+  background-position: 0 0;
+}
+
+.about__item--handmade::before {
+  content: "";
+
+  display: block;
+  width: 46px;
+  height: 46px;
+
+  background-image: url("../img/icon-4.svg");
+  background-repeat: none;
+  background-position: 0 0;
+}
+
+.about__item--domestic::before {
+  content: "";
+
+  display: block;
+  width: 73px;
+  height: 31px;
+
+  background-image: url("../img/icon-5.svg");
+  background-repeat: none;
+  background-position: 0 0;
+}
+
+.about__item--gift::before {
+  content: "";
+
+  display: block;
+  width: 44px;
+  height: 44px;
+
+  background-image: url("../img/icon-6.svg");
+  background-repeat: none;
+  background-position: 0 0;
+}
+
+.reviews {
+  margin: 0;
+
+  font-family: "Verdana",  sans-serif;
+  font-size: 24px;
+  line-height: 30x;
+  font-weight: 700;
+  color: #000000;
+}
+
+.reviews:first-letter {
+  text-transform: uppercase;
+}
+
+.review__text {
+  margin: 0;
+
+  line-height: 30xp;
+}
+
+.review__author {
+  margin: 0;
+
+  font-weight: 700;
+
+  color: #000000;
+}
+
+.review__author-email {
+  margin: 0;
+}
+
+.reviews__button {
+  border: 1px solid #ececec;
+}
+
+.reviews__button-left {
+  width: 67px;
+  height: 36px;
+
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  transform: rotate(180deg);
+}
+
+.reviews__button-right {
+  width: 67px;
+  height: 36px;
+
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.reviews__button-submit {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #444444;
+  text-transform: uppercase;
+
+  border: 2px solid #444444;
+}

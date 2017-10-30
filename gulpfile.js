@@ -15,7 +15,7 @@ var rimraf = require("rimraf"); //очистка
 var rename = require("gulp-rename"); //переименвоание файлов
 var plumber = require("gulp-plumber"); //предохранитель для остановки гальпа
 var browserSync = require("browser-sync"); //с помощью этого плагина мы можем легко развернуть локальный dev сервер с блэкджеком и livereload, а так же с его помощью мы сможем сделать тунель на наш localhost, что бы легко демонстрировать верстку заказчику
-var reload = browserSync.reload;
+var reload = browserSync.reload; //перезагрузка локального сервера
 
 var path = {
   build: { //Тут мы укажем куда складывать готовые после сборки файлы

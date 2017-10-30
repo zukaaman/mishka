@@ -1,0 +1,57 @@
+.top {
+  background-image: url("../img/top-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.top__title {
+  color: #231f20;
+}
+
+.top__list {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.top__list-item {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.top__interior {
+  background-color: #63d1bb;
+}
+
+.top__interior::after {
+  content: "";
+
+  display: block;
+  width: 51px;
+  height: 78px;
+
+  background-image: url("../img/interior.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.5;
+}
+
+.top__toys {
+  background-color: #56c3b2;
+}
+
+.top__toys::after {
+  content: "";
+
+  display: block;
+  width: 75px;
+  height: 75px;
+
+  background-image: url("../img/toy.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.5;
+}
