@@ -6,8 +6,8 @@
 }
 
 .page-footer__social-item--insta {
-  width: 28px;
-  height: 27px;
+  width: 22px;
+  height: 21px;
 
   background-image: url("../img/insta.svg");
   background-repeat: no-repeat;
@@ -15,8 +15,8 @@
 }
 
 .page-footer__social-item--fb {
-  width: 20px;
-  height: 37px;
+  width: 15px;
+  height: 28px;
 
   background-image: url("../img/fb.svg");
   background-repeat: no-repeat;
@@ -24,8 +24,8 @@
 }
 
 .page-footer__social-item--tw {
-  width: 30px;
-  height: 26px;
+  width: 23px;
+  height: 20px;
 
   background-image: url("../img/tw.svg");
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@
 }
 
 .page-footer__development {
-  font-family: "Verdana", sans-serif;
+  font-family: $verdana;
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
@@ -47,8 +47,7 @@
   width: 27px;
   height: 34px;
 
-  background-image: url("../img/html-academy.svg");
+  background-image: url("../img/htmlacademy.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-size: cover;
 }

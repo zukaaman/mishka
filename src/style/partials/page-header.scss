@@ -1,5 +1,5 @@
 .page-header {
-  font-family: "Verdana", sans-serif;
+  font-family: $verdana;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -10,7 +10,7 @@
   width: 20px;
   height: 14px;
 
-  background-image: url("../img/menu-closed.svg");
+  background-image: url("../img/menu.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: contain;
@@ -20,7 +20,7 @@
   width: 21px;
   height: 20px;
 
-  background-image: url("../img/menu-open.svg");
+  background-image: url("../img/menu-close.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: contain;
@@ -42,24 +42,24 @@
   content: "";
 
   display: block;
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
 
   background-image: url("../img/search.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  opacity: 0.2;
+  // opacity: 0.2;
 }
 
 .main-nav__item-basket::before {
   content: "";
 
   display: block;
-  width: 27px;
-  height: 25px;
+  width: 21px;
+  height: 18px;
 
   background-image: url("../img/cart.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  opacity: 0.2;
+  // opacity: 0.2;
 }

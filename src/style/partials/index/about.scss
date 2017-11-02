@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 
-  font-family: "Verdana", sans-serif;
+  font-family: $verdana;
   font-size: 16px;
   font-weight: 700;
   color: #000000;
@@ -13,8 +13,8 @@
   content: "";
 
   display: block;
-  width: 43px;
-  height: 50px;
+  width: 32px;
+  height: 37px;
 
   background-image: url("../img/icon-1.svg");
   background-repeat: none;
@@ -25,10 +25,10 @@
   content: "";
 
   display: block;
-  width: 62px;
-  height: 36px;
+  width: 47px;
+  height: 27px;
 
-  background-image: url("../img/icon-2.svg");
+  background-image: url("../img/icon-3.svg");
   background-repeat: none;
   background-position: 0 0;
 }
@@ -37,10 +37,10 @@
   content: "";
 
   display: block;
-  width: 44px;
-  height: 37px;
+  width: 34px;
+  height: 27px;
 
-  background-image: url("../img/icon-3.svg");
+  background-image: url("../img/icon-5.svg");
   background-repeat: none;
   background-position: 0 0;
 }
@@ -49,10 +49,10 @@
   content: "";
 
   display: block;
-  width: 46px;
-  height: 46px;
+  width: 35px;
+  height: 34px;
 
-  background-image: url("../img/icon-4.svg");
+  background-image: url("../img/icon-2.svg");
   background-repeat: none;
   background-position: 0 0;
 }
@@ -61,10 +61,10 @@
   content: "";
 
   display: block;
-  width: 73px;
-  height: 31px;
+  width: 55px;
+  height: 23px;
 
-  background-image: url("../img/icon-5.svg");
+  background-image: url("../img/icon-4.svg");
   background-repeat: none;
   background-position: 0 0;
 }
@@ -73,8 +73,8 @@
   content: "";
 
   display: block;
-  width: 44px;
-  height: 44px;
+  width: 33px;
+  height: 32px;
 
   background-image: url("../img/icon-6.svg");
   background-repeat: none;
@@ -84,7 +84,7 @@
 .reviews {
   margin: 0;
 
-  font-family: "Verdana",  sans-serif;
+  font-family: $verdana;
   font-size: 24px;
   line-height: 30x;
   font-weight: 700;
@@ -118,8 +118,17 @@
 }
 
 .reviews__button-left {
-  width: 67px;
-  height: 36px;
+  width: 50px;
+  height: 26px;
+
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.reviews__button-right {
+  width: 50px;
+  height: 26px;
 
   background-image: url("../img/arrow.svg");
   background-repeat: no-repeat;
@@ -128,17 +137,8 @@
   transform: rotate(180deg);
 }
 
-.reviews__button-right {
-  width: 67px;
-  height: 36px;
-
-  background-image: url("../img/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-
 .reviews__button-submit {
-  font-family: "Open Sans", sans-serif;
+  font-family: $open-sans;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;

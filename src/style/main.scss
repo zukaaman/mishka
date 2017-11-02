@@ -3,16 +3,24 @@
 */
 @import "partials/normalize";
 
+@import "partials/variables";
+
 @import "partials/body";
 
 @import "partials/page-header";
 
-@import "partials/top";
+@import "partials/index/top";
 
-@import "partials/featured";
+@import "partials/index/featured";
 
-@import "partials/about";
+@import "partials/index/about";
 
-@import "partials/contacts";
+@import "partials/index/contacts";
+
+@import "partials/catalog/items";
+
+@import "partials/catalog/production";
+
+@import "partials/form/main";
 
 @import "partials/page-footer";

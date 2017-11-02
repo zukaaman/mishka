@@ -3,14 +3,109 @@
   <head lang="ru">
     <meta charset="utf-8">
     <title>mishka-form</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
   </head>
   <body>
 
-    //= template/header.html
+    //= template/inner-page-header.html
 
-    <main></main>
+    <main>
 
-    //= template/footer.html
+      <section class="main">
+        <h1 class="main__title">Вязание на заказ</h1>
+        <p class="main__description">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа, и мы свяжемся с вами, чтобы уточнить детали.</p>
+
+        <form class="main__form form" action="https://echo.htmlacademy.ru" method="post">
+
+          <fieldset class="form__field">
+            <legend class="form__title">ТИП</legend>
+            <ul class="form__list">
+              <li class="form__item">
+                <input class="visually-hidden" id="accessory" type="radio" name="type" value="accessory">
+                <label class="form__label  form__label--interior" for="accessory">Аксессуар для интерьера</label>
+              </li>
+              <li class="form__item">
+                <input class="visually-hidden" id="children-toy" type="radio" name="type" value="children-toy">
+                <label class="form__label  form__label--toy" for="children-toy">Детская игрушка</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__field">
+            <legend class="form__title">ЦВет</legend>
+            <ul class="form__list">
+              <li class="form__item">
+                <input class="visually-hidden" id="color-white" type="checkbox" name="color-white">
+                <label class="form__label  form__label--moderated" for="color-white">Белый</label>
+              </li>
+              <li class="form__item">
+                <input class="visually-hidden" id="color-grey" type="checkbox" name="color-grey">
+                <label class="form__label  form__label--moderated" for="color-grey">Серый</label>
+              </li>
+              <li class="form__item">
+                <input class="visually-hidden" id="color-tiffany" type="checkbox" name="color-tiffany">
+                <label class="form__label  form__label--moderated" for="color-tiffany">«Тиффани»</label>
+              </li>
+              <li class="form__item">
+                <input class="visually-hidden" id="color-black" type="checkbox" name="color-black">
+                <label class="form__label  form__label--moderated" for="color-black">Черный</label>
+              </li>
+              <li class="form__item">
+                <input class="visually-hidden" id="color-rose" type="checkbox" name="color-rose">
+                <label class="form__label  form__label--moderated" for="color-rose">Розовый</label>
+              </li>
+              <li class="form__item">
+                <input class="visually-hidden" id="color-orange" type="checkbox" name="color-orange">
+                <label class="form__label  form__label--moderated" for="color-orange">Оранжевый</label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__field">
+            <legend class="form__title">ФИО</legend>
+            <ul class="form__list">
+              <li>
+                <label class="form__label" for="surname">Фамилия:</label>
+                <input class="form__input--moderated" id="surname" name="surname" type="text" placeholder="Укажите фамилию">
+              </li>
+              <li>
+                <label class="form__label" for="name">Имя:</label>
+                <input class="form__input--moderated" id="name" name="name" type="text" placeholder="Введите ваше имя">
+              </li>
+              <li>
+                <label class="form__label" for="middle-name">Отчество:</label>
+                <input class="form__input--moderated" id="middle-name" name="middle-name" type="text" placeholder="Отчество, если желаете">
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="form__field">
+            <legend class="form__title">тел</legend>
+            <input class="form__input--moderated" name="tel" type="tel" placeholder="+7 ХХХ ХХX ХХ XX">
+          </fieldset>
+
+          <fieldset class="form__field">
+            <legend class="form__title">E-mail</legend>
+            <input class="form__input--moderated" name="email" type="email" placeholder="Ваш e-mail">
+          </fieldset>
+
+          <fieldset class="form__field">
+            <legend class="form__title">Доп</legend>
+            <textarea name="additionally" cols="6" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+          </fieldset>
+
+          <button class="form__button" type="submit">ОТПРАВИТЬ ЗАКАЗ</button>
+
+        </form>
+
+      </section>
+
+    </main>
+
+    //= template/page-footer.html
+
+    <script src="js/main.min.js"></script>
 
   </body>
 </html>

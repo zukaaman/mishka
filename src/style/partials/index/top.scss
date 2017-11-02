@@ -5,6 +5,8 @@
 }
 
 .top__title {
+  margin: 0;
+
   color: #231f20;
 }
 
@@ -30,13 +32,13 @@
   content: "";
 
   display: block;
-  width: 51px;
-  height: 78px;
+  width: 40px;
+  height: 62px;
 
   background-image: url("../img/interior.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  opacity: 0.5;
+  // opacity: 0.5;
 }
 
 .top__toys {
@@ -47,11 +49,11 @@
   content: "";
 
   display: block;
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
 
   background-image: url("../img/toy.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  opacity: 0.5;
+  // opacity: 0.5;
 }

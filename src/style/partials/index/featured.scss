@@ -1,5 +1,5 @@
 .featured__title {
-  font-family: "Open Sans", sans-serif;
+  font-family: $open-sans;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -14,7 +14,7 @@
 .product-title {
   margin: 0;
 
-  font-family: "Verdana",  sans-serif;
+  font-family: $verdana;
   font-size: 24px;
   line-height: 30x;
   font-weight: 700;
@@ -24,7 +24,7 @@
 .product-description {
   margin: 0;
 
-  font-family: "Open Sans", sans-serif;
+  font-family: $open-sans;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -38,7 +38,7 @@
 .product-price {
   margin: 0;
 
-  font-family: "Verdana",  sans-serif;
+  font-family: $verdana;
   font-size: 16px;
   line-height: 24x;
   font-weight: 700;
@@ -46,7 +46,7 @@
 }
 
 .featured__button {
-  font-family: "Open Sans", sans-serif;
+  font-family: $open-sans;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
