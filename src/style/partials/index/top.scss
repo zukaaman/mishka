@@ -1,23 +1,36 @@
 .top {
   background-image: url("../img/top-bg.jpg");
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: top center;
 }
 
 .top__title {
   margin: 0;
+  padding: 93px 30px 0 30px;
 
   color: #231f20;
+  font-family: $verdana;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .top__list {
   padding: 0;
+  padding-top: 127px;
   margin: 0;
 
   list-style: none;
 }
 
 .top__list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+
+  font-family: $tahoma;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -25,6 +38,9 @@
 }
 
 .top__interior {
+  // padding-top: 23px;
+  // padding-bottom: 18px;
+
   background-color: #63d1bb;
 }
 
@@ -42,6 +58,9 @@
 }
 
 .top__toys {
+  // padding-top: 21px;
+  // padding-bottom: 22px;
+
   background-color: #56c3b2;
 }
 

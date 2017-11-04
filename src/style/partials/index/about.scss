@@ -1,5 +1,10 @@
+.about {
+  padding-top: 72px;
+}
+
 .about__list {
   padding: 0;
+  padding-top: 30px;
   margin: 0;
 
   font-family: $verdana;
@@ -9,12 +14,17 @@
   list-style: none;
 }
 
+.about__item {
+  padding-bottom: 30px;
+}
+
 .about__item--eco::before {
   content: "";
 
   display: block;
   width: 32px;
   height: 37px;
+  margin-bottom: 17px;
 
   background-image: url("../img/icon-1.svg");
   background-repeat: none;
@@ -27,6 +37,7 @@
   display: block;
   width: 47px;
   height: 27px;
+  margin-bottom: 17px;
 
   background-image: url("../img/icon-3.svg");
   background-repeat: none;
@@ -39,6 +50,7 @@
   display: block;
   width: 34px;
   height: 27px;
+  margin-bottom: 17px;
 
   background-image: url("../img/icon-5.svg");
   background-repeat: none;
@@ -51,6 +63,7 @@
   display: block;
   width: 35px;
   height: 34px;
+  margin-bottom: 17px;
 
   background-image: url("../img/icon-2.svg");
   background-repeat: none;
@@ -63,6 +76,7 @@
   display: block;
   width: 55px;
   height: 23px;
+  margin-bottom: 17px;
 
   background-image: url("../img/icon-4.svg");
   background-repeat: none;
@@ -75,6 +89,7 @@
   display: block;
   width: 33px;
   height: 32px;
+  margin-bottom: 17px;
 
   background-image: url("../img/icon-6.svg");
   background-repeat: none;
@@ -83,6 +98,7 @@
 
 .reviews {
   margin: 0;
+  padding-top: 30px;
 
   font-family: $verdana;
   font-size: 24px;
@@ -97,23 +113,35 @@
 
 .review__text {
   margin: 0;
+  padding-top: 30px;
 
   line-height: 30xp;
 }
 
 .review__author {
   margin: 0;
+  padding-top: 15px;
 
+  font-family: $verdana;
+  font-size: 14px;
   font-weight: 700;
-
+  line-height: 24px;
   color: #000000;
 }
 
 .review__author-email {
   margin: 0;
+
+  line-height: 30px;
+  font-family: $open-sans;
+  color: #444444;
+  font-weight: 400;
+
 }
 
 .reviews__button {
+  padding-top: 30px;
+
   border: 1px solid #ececec;
 }
 
@@ -138,6 +166,11 @@
 }
 
 .reviews__button-submit {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px 0;
+
   font-family: $open-sans;
   font-size: 16px;
   line-height: 16px;
@@ -146,4 +179,5 @@
   text-transform: uppercase;
 
   border: 2px solid #444444;
+  background-color: #ffffff;
 }
