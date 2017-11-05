@@ -1,5 +1,7 @@
 .about {
-  padding-top: 72px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  // padding: 72px 30px 0 30px;
 }
 
 .about__list {
@@ -139,28 +141,35 @@
 
 }
 
-.reviews__button {
+.reviews__buttons {
+  display: flex;
   padding-top: 30px;
+}
+
+.reviews__button {
+  // padding-top: 30px;
+  width: 50%;
+  height: 52px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
 
   border: 1px solid #ececec;
 }
 
 .reviews__button-left {
-  width: 50px;
-  height: 26px;
+  // width: 50px;
+  // height: 26px;
 
   background-image: url("../img/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
+
 }
 
 .reviews__button-right {
-  width: 50px;
-  height: 26px;
+  // width: 50px;
+  // height: 26px;
 
   background-image: url("../img/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
 
   transform: rotate(180deg);
 }
@@ -168,7 +177,7 @@
 .reviews__button-submit {
   display: block;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 38px;
   padding: 20px 0;
 
   font-family: $open-sans;

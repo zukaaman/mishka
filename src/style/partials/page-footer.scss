@@ -1,8 +1,28 @@
+.page-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: #f1f1f1;
+}
+
 .page-footer__social-list {
+  display: flex;
+  justify-content: center;
   padding: 0;
+  padding-bottom: 30px;
   margin: 0;
 
   list-style: none;
+
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.page-footer__social-item {
+  padding-right: 40px;
+}
+
+.page-footer__social-item:last-child {
+  padding-right: 0;
 }
 
 .page-footer__social-item--insta {
@@ -33,16 +53,27 @@
 }
 
 .page-footer__development {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+
   font-family: $verdana;
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
   color: #000000;
+
+  list-style: none;
 }
 
-.page-footer__development::after {
-  content: "";
+.page-footer__development li:first-child {
+  padding-right: 25px;
+}
 
+.page-footer__development a {
   display: block;
   width: 27px;
   height: 34px;
@@ -51,3 +82,15 @@
   background-repeat: no-repeat;
   background-position: 0 0;
 }
+
+// .page-footer__development::after {
+//   content: "";
+
+//   display: block;
+//   width: 27px;
+//   height: 34px;
+
+//   background-image: url("../img/htmlacademy.svg");
+//   background-repeat: no-repeat;
+//   background-position: 0 0;
+// }

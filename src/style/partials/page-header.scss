@@ -1,5 +1,5 @@
 .page-header {
-  padding: 0 30px;
+  // padding: 0 30px;
 
   font-family: $verdana;
   font-size: 16px;
@@ -37,7 +37,7 @@
 .main-nav__toggle {
   position: absolute;
   top: 32px;
-  right: 31px;
+  right: 0;
 }
 
 .main-nav__toggle--closed {
@@ -52,7 +52,7 @@
 
 .main-nav__toggle--open {
   top: 29px;
-  right: 30px;
+  right: 0;
 
   width: 21px;
   height: 20px;
@@ -93,7 +93,7 @@
 .main-nav__item-search::before {
   content: "";
   position: absolute;
-  left: 32px;
+  left: 0;
 
   // display: block;
   width: 18px;
@@ -108,7 +108,7 @@
 .main-nav__item-basket::before {
   content: "";
   position: absolute;
-  left: 30px;
+  left: 0;
 
   // display: block;
   width: 21px;
@@ -121,5 +121,5 @@
 }
 
 .main-nav__item a {
-  padding-left: 76px;
+  padding-left: 46px;
 }

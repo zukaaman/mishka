@@ -1,0 +1,29 @@
+@mixin tablet-widths {
+  min-width: 768px;
+}
+
+@mixin desktop-widths {
+  min-width: 1200px;
+}
+
+// .container {
+//   width: 320px;
+//   margin: 0 auto;
+
+//   @media (@include tablet-widths) {
+//     width: 640px;
+//   }
+
+//   @media (@include desktop-widths;) {
+//     width: 960px;
+//   }
+// }
+
+// .no-outline {
+//   outline: none;
+//   background: transparent;
+
+//   &::before {
+//     display: none;
+//   }
+// }
