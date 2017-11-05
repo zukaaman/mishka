@@ -8,6 +8,7 @@
 .page-footer__social-list {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 0;
   padding-bottom: 30px;
   margin: 0;
@@ -25,7 +26,8 @@
   padding-right: 0;
 }
 
-.page-footer__social-item--insta {
+.page-footer__social-item--insta a {
+  display: block;
   width: 22px;
   height: 21px;
 
@@ -34,7 +36,8 @@
   background-position: 0 0;
 }
 
-.page-footer__social-item--fb {
+.page-footer__social-item--fb a {
+  display: block;
   width: 15px;
   height: 28px;
 
@@ -43,7 +46,8 @@
   background-position: 0 0;
 }
 
-.page-footer__social-item--tw {
+.page-footer__social-item--tw a {
+  display: block;
   width: 23px;
   height: 20px;
 
