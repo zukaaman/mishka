@@ -1,9 +1,9 @@
 @mixin tablet-widths {
-  min-width: 768px;
+  @media (min-width: 500px) { @content; }
 }
 
 @mixin desktop-widths {
-  min-width: 1200px;
+  @media (min-width: 900px) { @content; }
 }
 
 // .container {

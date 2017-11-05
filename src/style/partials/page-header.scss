@@ -76,10 +76,18 @@
 
 .main-nav__wrapper {
   display: none;
+  width: 100%;
+
+  background-color: #ffffff;
 }
 
 .main-nav__toggle--open ~ .main-nav__wrapper {
+  position: absolute;
+  top: 86px;
+  left: -30px;
+
   display: block;
+  padding: 0 30px;
 }
 
 .main-nav__item {

@@ -76,15 +76,11 @@ input[type=radio].visually-hidden {
   // width: 320px;
   margin: 0 auto;
   width: 260px;
-  padding: 0 30xp;
+  padding: 0 30px;
 
-  // @media @include tablet-widths {
-  //   width: 640px;
-  // }
-
-  // @media @include desktop-widths {
-  //   width: 960px;
-  // }
+  @include tablet-widths {
+    width: 500px;
+  }
 }
 
 .line {

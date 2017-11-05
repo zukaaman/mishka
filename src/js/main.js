@@ -1,6 +1,6 @@
 /*
  * Custom
  */
-//= partials/app.js
+//= partials/menu-toggle.js
 
 //= partials/map.js
