@@ -1,3 +1,27 @@
+.page-title {
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  text-align: center;
+
+  background-color: #f1f1f1;
+}
+
+.page-title__title {
+  margin: 0;
+
+  font-family: $verdana;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #231f20;
+}
+
+.main {
+  padding-top: 30px;
+  padding-bottom: 58px;
+}
+
 .main__title {
   margin: 0;
 
@@ -18,12 +42,17 @@
   line-height: 25.31px;
 }
 
+.main__form {
+  padding-top: 30px;
+}
+
 .form__field {
   margin: 0;
   padding: 0;
+  padding-bottom: 45px;
 
   border: none;
-  border-top: 1px solid black;
+  border-top: 1px solid #60d1ba;
 }
 
 .form__title {
@@ -40,12 +69,41 @@
 .form__list {
   margin: 0;
   padding: 0;
+  padding-top: 20px;
 
   list-style: none;
 }
 
 .form__item {
   position: relative;
+
+  padding-left: 60px;
+  padding-bottom: 30px;
+  // padding-top: 20px;
+}
+
+.form__item:last-child {
+  padding-bottom: 0;
+}
+
+.form__item--moderated {
+  padding-bottom: 20px;
+}
+
+.form__item--moderated:last-child {
+  padding-bottom: 0;
+}
+
+.form__field--color {
+  padding-top: 20px;
+}
+
+.form__field--color .form__item {
+  padding-bottom: 45px;
+}
+
+.form__field--color .form__item:last-child {
+  padding-bottom: 0;
 }
 
 .form__label {
@@ -54,6 +112,8 @@
   font-size: 17px;
   font-weight: 700;
   line-height: 18.98px;
+
+  vertical-align: middle;
 }
 
 ::-webkit-input-placeholder { /* chrome/opera/safari */
@@ -97,7 +157,9 @@
 }
 
 .form__button {
-  padding: 20px 52px 21px 52px;
+  width: 100%;
+  padding: 20px 0;
+
   color: #444444;
   font-family: $open-sans;
   font-size: 17px;
@@ -113,6 +175,8 @@
 .form__label--toy::before {
   content: "";
   position: absolute;
+  top: 0;
+  left: 0;
 
   width: 40px;
   height: 42px;
@@ -120,6 +184,10 @@
   border-radius: 50%;
 
   background-color: #ffffff;
+}
+
+.form__label--toy::before {
+  top: -10px;
 }
 
 #accessory:checked ~ .form__label--interior::before,
@@ -132,6 +200,8 @@
 .form__label--moderated::before {
   content: "";
   position: absolute;
+  top: -10px;
+  left: 0;
 
   width: 40px;
   height: 41px;
@@ -150,6 +220,19 @@
 }
 
 .form__input--moderated {
+  width: 100%;
+  padding: 20px 0;
+
   border: none;
   box-shadow: inset 0 -2px 0 #000000;
+}
+
+.form__textarea {
+  width: 226px;
+  margin-top: 30px;
+  padding: 15px;
+
+  border: 2px solid #444444;
+
+  resize: none;
 }
