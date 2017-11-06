@@ -6,8 +6,7 @@
     <title>mishka</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css">
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
-    </script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
   </head>
   <body>
 
@@ -46,7 +45,10 @@
                 <td>15 см</td>
               </tr>
             </table>
-            <img class="product__img" src="img/knitted-basket.jpg" width="260" height="315" alt="Вязанная корзинка">
+            <div class="product__img">
+              <img class="product__img--mobile" src="img/knitted-basket.jpg" width="260" height="315" alt="Вязанная корзинка">
+              <img class="product__img--tablet" src="img/triple-set-tablet.jpg" width="333" height="404" alt="Вязанная корзинка">
+            </div>
             <p class="product-price">Цена: 990 руб.</p>
             <!-- </figure> -->
             <button class="featured__button">ЗАКАЗАТЬ</button>
@@ -67,17 +69,18 @@
              <li class="about__item about__item--domestic">Поддержка отечественного производителя</li>
              <li class="about__item about__item--gift">Поставляется в  подарочной упаковке</li>
           </ul>
-          <h3 class="reviews">отзывы</h3>
-          <!-- <article class="reviews__item review"> -->
-            <p class="review__text">Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке и мои фотографии сразу стали более стильнее, а также набирают больше лайков!</p>
-            <p class="review__author">Анастасия Красильникова</p>
-            <p class="review__author-email">@misssssiskras</p>
-          <!-- </article> -->
-          <div class="reviews__buttons">
-            <button class="reviews__button reviews__button-left" type="button"><span class="visually-hidden">left</span></button>
-            <button class="reviews__button reviews__button-right" type="button"><span class="visually-hidden">right</span></button>
+        </div>
+        <div class="reviews">
+          <div class="container">
+            <h3 class="reviews__title">отзывы</h3>
+            <p class="reviews__text">Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке и мои фотографии сразу стали более стильнее, а также набирают больше лайков!</p>
+            <p class="reviews__author">Анастасия Красильникова<br><span class="reviews__author-email">@misssssiskras</span></p>
+            <div class="reviews__buttons">
+              <button class="reviews__button  reviews__button-left" type="button"><span class="visually-hidden">left</span></button>
+              <button class="reviews__button  reviews__button-right" type="button"><span class="visually-hidden">right</span></button>
+            </div>
+            <button class="reviews__button-submit">Написать</button>
           </div>
-          <button class="reviews__button-submit">Написать</button>
         </div>
       </section>
 
@@ -86,6 +89,7 @@
       <section class="contacts">
         <div class="container">
           <h2 class="contacts__title">Контакты</h2>
+          <div class="contacts__title-flag"></div>
           <ul class="contacts__address-list">
             <li class="contacts__address-item">
               <p>e-mail:</p>
@@ -93,7 +97,7 @@
             </li>
             <li class="contacts__address-item">
               <p>адрес:</p>
-              <p>г. Санкт-Петербург,<br> ул. Большая Конюшенная, д.19/8, офис 101</p>
+              <p>г. Санкт-Петербург,<br> ул. Большая Конюшенная,<br> д.19/8, офис 101</p>
             </li>
           </ul>
         </div>

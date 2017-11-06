@@ -14,10 +14,27 @@
   font-weight: 700;
   color: #000000;
   list-style: none;
+
+  @include tablet-widths {
+    display: flex;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // align-items: baseline;
+    align-content: space-around;
+
+    font-size: 20px;
+  }
 }
 
 .about__item {
   padding-bottom: 30px;
+
+  @include tablet-widths {
+    flex-basis: 45%;
+    // margin-right: 50px;
+    // padding-bottom: 0;
+  }
 }
 
 .about__item--eco::before {
@@ -99,28 +116,58 @@
 }
 
 .reviews {
-  margin: 0;
   padding-top: 30px;
+
+  @include tablet-widths {
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+    background-image: url("../img/review.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+}
+
+.reviews__title {
+  margin: 0;
+
 
   font-family: $verdana;
   font-size: 24px;
   line-height: 30x;
   font-weight: 700;
   color: #000000;
+
+  @include tablet-widths {
+    order: -2;
+
+    font-size: 40px;
+    line-height: 50px;
+  }
 }
 
-.reviews:first-letter {
+.reviews__title:first-letter {
   text-transform: uppercase;
 }
 
-.review__text {
+.reviews__text {
   margin: 0;
   padding-top: 30px;
 
   line-height: 30xp;
+
+  @include tablet-widths {
+    font-size: 16px;
+  }
 }
 
-.review__author {
+.reviews__author {
   margin: 0;
   padding-top: 15px;
 
@@ -131,7 +178,7 @@
   color: #000000;
 }
 
-.review__author-email {
+.reviews__author-email {
   margin: 0;
 
   line-height: 30px;
@@ -155,6 +202,13 @@
   background-position: center center;
 
   border: 1px solid #ececec;
+
+  @include tablet-widths {
+    width: 50px;
+    height: 26px;
+
+    border: none;
+  }
 }
 
 .reviews__button-left {
@@ -163,6 +217,9 @@
 
   background-image: url("../img/arrow.svg");
 
+  @include tablet-widths {
+    margin-right: 37px;
+  }
 }
 
 .reviews__button-right {
@@ -189,4 +246,12 @@
 
   border: 2px solid #444444;
   background-color: #ffffff;
+
+  @include tablet-widths {
+    order: -1;
+
+    width: auto;
+    padding: 20px 40px;
+    margin-top: 0;
+  }
 }

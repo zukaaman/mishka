@@ -32,6 +32,11 @@ h2 {
   line-height: 30x;
   font-weight: 700;
   color: #000000;
+
+  @include tablet-widths {
+    font-size: 40px;
+    line-height: 50px;
+  }
 }
 
 h2:first-letter {
