@@ -1,7 +1,11 @@
 .top {
-  background-image: url("../img/top-bg.jpg");
+  background-image: url("../img/bg-top-mobile.jpg");
   background-repeat: no-repeat;
   background-position: top center;
+
+  @include tablet-widths {
+    background-image: url(../img/bg-top-tablet.jpg);
+  }
 }
 
 .top__title {
@@ -14,6 +18,13 @@
   line-height: 30px;
   font-weight: 700;
   text-align: center;
+
+  @include tablet-widths {
+    padding-top: 120px;
+
+    font-size: 40px;
+    line-height: 50px;
+  }
 }
 
 .top__list {
@@ -22,6 +33,11 @@
   margin: 0;
 
   list-style: none;
+
+  @include tablet-widths {
+    padding-top: 370px;
+    display: flex;
+  }
 }
 
 .top__list-item {
@@ -35,6 +51,10 @@
   font-weight: 700;
   line-height: 24px;
   color: #ffffff;
+
+  @include tablet-widths {
+    flex-basis: 50%;
+  }
 }
 
 .top__interior {
