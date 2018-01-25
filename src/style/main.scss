@@ -1,7 +1,8 @@
 /*
 * Custom
 */
-@import "partials/normalize";
+
+@import "../../node_modules/normalize.css/normalize";
 
 @import "partials/variables";
 
@@ -26,3 +27,5 @@
 @import "partials/form/main";
 
 @import "partials/page-footer";
+
+@import "../../node_modules/slick-carousel/slick/slick.scss";

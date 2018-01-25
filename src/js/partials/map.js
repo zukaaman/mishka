@@ -17,4 +17,6 @@ ymaps.ready(init);
     });
 
     myMap.geoObjects.add(myPlacemark);
+
+    myMap.behaviors.disable('scrollZoom');
   }
