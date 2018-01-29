@@ -6,19 +6,6 @@
   @media (min-width: 900px) { @content; }
 }
 
-// .container {
-//   width: 320px;
-//   margin: 0 auto;
-
-//   @media (@include tablet-widths) {
-//     width: 640px;
-//   }
-
-//   @media (@include desktop-widths;) {
-//     width: 960px;
-//   }
-// }
-
 // .no-outline {
 //   outline: none;
 //   background: transparent;

@@ -16,6 +16,7 @@
 
 .page-footer__logo {
   display: none;
+  flex-basis: 33%;
 
   @include tablet-widths {
     display: block;
@@ -26,6 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-basis: 34%;
   padding: 0;
   padding-bottom: 30px;
   margin: 0;
@@ -83,6 +85,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-basis: 33%;
   margin: 0;
   padding: 0;
   padding-top: 30px;
@@ -97,6 +100,7 @@
 
   @include tablet-widths {
     padding-top: 0;
+    justify-content: flex-end;
   }
 }
 

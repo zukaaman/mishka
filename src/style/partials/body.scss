@@ -87,13 +87,18 @@ input[type=radio].visually-hidden {
 }
 
 .container {
-  // width: 320px;
   margin: 0 auto;
   min-width: 260px;
   padding: 0 30px;
 
   @include tablet-widths {
     width: 668px;
+    padding: 0 50px;
+  }
+
+  @include desktop-widths {
+    width: 1050px;
+    padding: 0 50px;
   }
 }
 
