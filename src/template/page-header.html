@@ -2,7 +2,7 @@
   <div class="container">
     <nav class="main-nav">
 
-      <a class="page-header__logo">
+      <!-- <a class="page-header__logo">
         <img src="img/logo.svg" width="86" height="35" alt="logo">
       </a>
 
@@ -17,8 +17,52 @@
           <li class="main-nav__item  main-nav__item-search"><a href="#">Поиск по сайту</a></li>
           <li class="main-nav__item  main-nav__item-basket"><a href="#">Корзина: пока пуста</a></li>
         </ul>
-      </div>
+      </div> -->
+
+        <div class="main-nav__block0">
+          <div class="main-nav__catalog">
+            <a href="catalog.html">Каталог товаров</a>
+          </div>
+
+          <div class="main-nav__form">
+            <a href="form.html">Вязание на заказ</a>
+          </div>
+        </div>
+
+        <div class="main-nav__logo">
+          <a>
+            <picture>
+              <source srcset="img/logo-tablet.svg" media="(min-width: 500px) and (max-width: 899px)">
+              <source srcset="img/logo-desktop.svg" media="(min-width: 900px)">
+              <img src="img/logo-mobile.svg" width="86" height="35" alt="logo">
+            </picture>
+          </a>
+        </div>
+
+        <div class="main-nav__block1">
+          <div class="main-nav__search">
+            <a href="#"><span>Поиск по сайту</span><img src="/img/search.svg" alt="поиск"></a>
+          </div>
+
+          <div class="main-nav__basket">
+            <a href="#">Корзина: пока пуста</a>
+          </div>
+        </div>
 
     </nav>
+
+    <div class="header-top">
+      <ul>
+        <li>
+          <a href="#">Новые поступления</a>
+        </li>
+        <li>
+          <a href="#">Распродажа</a>
+        </li>
+        <li>
+          <a href="#">Бесплатная доставка по России</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </header>
