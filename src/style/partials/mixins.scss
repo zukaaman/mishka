@@ -1,3 +1,6 @@
+// макеты 320, 768, 1150;
+// breakpoints 500px, 900px;
+
 @mixin tablet-widths {
   @media (min-width: 500px) { @content; }
 }
