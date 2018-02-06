@@ -1,18 +1,54 @@
 <header class="page-header">
-  <div class="container">
     <nav class="main-nav">
-      <a href="index.html" class="page-header__logo">
-        <img src="img/logo.svg" width="86" height="35" alt="logo">
-      </a>
-      <button class="main-nav__toggle  main-nav__toggle--closed" type="button"><span class="visually-hidden">Открыть меню</span></button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list">
-          <li class="main-nav__item"><a href="catalog.html">Каталог товаров</a></li>
-          <li class="main-nav__item"><a href="form.html">Вязание на заказ</a></li>
-          <li class="main-nav__item  main-nav__item-search"><a href="#">Поиск по сайту</a></li>
-          <li class="main-nav__item  main-nav__item-basket"><a href="#">Корзина: пока пуста</a></li>
-        </ul>
+      <div class="container">
+
+        <button class="main-nav__button" type="button"><span class="visually-hidden">открыть меню</span></button>
+
+        <div class="main-nav__block0">
+          <div class="main-nav__catalog">
+            <a href="catalog.html">Каталог товаров</a>
+          </div>
+
+          <div class="main-nav__form">
+            <a href="form.html">Вязание на заказ</a>
+          </div>
+        </div>
+
+        <div class="main-nav__logo">
+          <a href="/">
+            <picture>
+              <source srcset="img/logo-tablet.svg" media="(min-width: 500px) and (max-width: 899px)">
+              <source srcset="img/logo-desktop.svg" media="(min-width: 900px)">
+              <img src="img/logo-mobile.svg" width="86" height="35" alt="logo">
+            </picture>
+          </a>
+        </div>
+
+        <div class="main-nav__block1">
+          <div class="main-nav__search">
+            <a href="#"><span>Поиск по сайту</span><img src="/img/search.svg" alt="поиск"></a>
+          </div>
+
+          <div class="main-nav__basket">
+            <a href="#">Корзина: пока пуста</a>
+          </div>
+        </div>
       </div>
     </nav>
-  </div>
+
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top__block0">
+          <div class="header-top__new">
+            <a href="#">Новые поступления</a>
+          </div>
+          <div class="header-top__sale">
+            <a href="#">Распродажа</a>
+          </div>
+        </div>
+        <div class="header-top__freesale">
+          <a href="#">Бесплатная доставка по России</a>
+        </div>
+      </div>
+    </div>
 </header>
